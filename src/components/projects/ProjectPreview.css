@@ -1,0 +1,53 @@
+.preview {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #22A39F;
+    border-radius: 5px;
+}
+
+figure.preview-figure {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 15px;
+}
+
+figure.preview-figure figcaption {
+    padding: 20px 30px;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: #22A39F;
+    opacity: 0;
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+figure.preview-figure figcaption h4 {
+    color: white;
+    margin: 0px;
+}
+
+figure.preview-figure figcaption hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 2px solid white;
+}
+
+figure.preview-figure figcaption .subtitle {
+    font-weight: bold;
+    padding-top: 10px;
+    color: white;
+}
+
+figure.preview-figure:hover figcaption {
+    opacity: 0.85;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}

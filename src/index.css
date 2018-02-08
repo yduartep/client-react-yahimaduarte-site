@@ -1,0 +1,262 @@
+
+html, body {
+    color: #434242;
+    font-family: 'Open Sans', sans-serif !important;
+    height: 100%;
+}
+
+body {
+    font-size: 15px;
+    line-height: 1.64;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, strong, b {
+    font-family: 'Times, Times New Roman, serif';
+}
+
+h1 {
+    font-size: 45px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1, h2 {
+    color: #22A39F;
+}
+
+h3 {
+    font-family: Source Sans Pro, Helvetica, Arial, sans-serif, Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic, Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai, Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system, '.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .85);
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.preview-info h3 {
+    color: white;
+}
+
+h4 {
+    font-family: Source Sans Pro, Helvetica, Arial, sans-serif, Hiragino Kaku Gothic Pro, Meiryo, Hiragino Sans GB W3, Noto Naskh Arabic, Droid Arabic Naskh, Geeza Pro, Simplified Arabic, Noto Sans Thai, Thonburi, Dokchampa, Droid Sans Thai, Droid Sans Fallback, -apple-system, '.SFNSDisplay-Regular', Heiti SC, Microsoft Yahei, Segoe UI;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgba(0, 0, 0, .85);
+    font-size: 17px;
+}
+
+hr {
+    border-top: 1px solid #000;
+}
+
+hr.sub-section {
+    margin-left: 100px;
+}
+
+p {
+    margin: 0px;
+}
+
+p.lead {
+    text-align: center;
+    color: #727878;
+    margin-bottom: 5px;
+    padding: 0px;
+    font-size: 20px;
+}
+
+p.subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, .7);
+}
+
+.col-fixed, .row {
+    float: left;
+    width: 100%;
+}
+
+.col-fixed {
+    width: 110px;
+}
+
+/*********************************
+* Nav Bar
+*********************************/
+.navbar-default {
+    background-color: #22A39F;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #434242;
+    font-weight: bold;
+}
+
+.active {
+    background-color: #F3EFE0;
+    font-weight: bold;
+}
+
+/*********************************
+* Contents
+*********************************/
+.content-home {
+    min-height: 100vh;
+    height: 100vh;
+    padding-top: 40px;
+    background: url('/images/home.jpg') no-repeat;
+    background-size: 100%;
+    color: white;
+    /*opacity: 0.75;*/
+}
+
+.home {
+    /*background-color: #22A39F;*/
+    /*position: absolute;*/
+    /*top: 0px;*/
+    /*bottom: 0px;*/
+    /*left: 0px;*/
+    /*right: 0px;*/
+    /*opacity: 0.55;*/
+    /*filter: alpha(opacity=55);*/
+    /*z-index: 2;*/
+    /*color: white;*/
+}
+
+.content-even {
+    min-height: 100vh;
+    padding-top: 40px;
+    background-color: #F3EFE0;
+    background-size: cover;
+}
+
+.content-odd {
+    min-height: 100vh;
+    padding-top: 40px;
+    background-color: white;
+}
+
+.introduction {
+    width: 50%;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 30px;
+    padding-left: 3%;
+    padding-top: 10%;
+}
+
+.icon {
+    float: left;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+.icon.icon-text {
+    padding-left: 40px;
+    padding-top: 5px;
+}
+
+.icon.icon-twitter {
+    background: url('/images/accounts/twitter-home.png');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.icon.icon-linkedin {
+    background: url('/images/accounts/linkedin-home.png');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 42px 42px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.icon.icon-github {
+    background: url('/images/accounts/github-home.png');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: 42px 42px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.icon.icon-google {
+    background: url('/images/accounts/google-home.png');
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    background-size: 36px 36px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.icon.icon-stackoverflow {
+    background: url('/images/accounts/stackoverflow-home.png');
+    background-position: 5px 5px;
+    background-repeat: no-repeat;
+    background-size: 36px 36px;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+/*********************************
+* Projects
+*********************************/
+img.thumbnail {
+    width: 100px;
+    height: 100px;
+}
+
+/** Project images group by columns */
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    margin: auto;
+}
+
+/* Create three equal columns that sits next to each other */
+.column-flex {
+    flex: 33%;
+    max-width: 33%;
+    padding: 0 5px;
+}
+
+.column-flex img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column-flex {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column-flex {
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+
+footer {
+    background-color: #dfdfdf;
+    text-align: center;
+    position: relative;
+    padding: 40px 15px;
+}

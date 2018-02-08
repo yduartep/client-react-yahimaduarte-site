@@ -1,0 +1,8 @@
+.fa-star.checked {
+    color: #22A39F;
+}
+
+.fa-star {
+    color: #DFE0E0;
+    border-color: black;
+}
