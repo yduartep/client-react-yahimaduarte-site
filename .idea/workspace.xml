@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40d1a654-ea41-4c72-901d-5ed9bf79e90b" name="Default" comment="" />
+    <list default="true" id="40d1a654-ea41-4c72-901d-5ed9bf79e90b" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/About.js" afterPath="$PROJECT_DIR$/src/components/About.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/Modal.js" afterPath="$PROJECT_DIR$/src/components/Modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/NavBar.js" afterPath="$PROJECT_DIR$/src/components/NavBar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/experiences/CertificationAwardExperiences.js" afterPath="$PROJECT_DIR$/src/components/experiences/CertificationAwardExperiences.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/experiences/EducationExperienceItem.js" afterPath="$PROJECT_DIR$/src/components/experiences/EducationExperienceItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/experiences/EducationExperiences.js" afterPath="$PROJECT_DIR$/src/components/experiences/EducationExperiences.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/experiences/Experiences.js" afterPath="$PROJECT_DIR$/src/components/experiences/Experiences.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/experiences/WorkExperienceItem.js" afterPath="$PROJECT_DIR$/src/components/experiences/WorkExperienceItem.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/experiences/WorkExperiences.js" afterPath="$PROJECT_DIR$/src/components/experiences/WorkExperiences.js" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -13,7 +24,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="About.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/About.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="433">
+              <caret line="54" column="28" lean-forward="false" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -117,7 +139,6 @@
         <option value="$PROJECT_DIR$/src/components/skills/Rating.js" />
         <option value="$PROJECT_DIR$/src/components/Projects.js" />
         <option value="$PROJECT_DIR$/src/components/skills/SkillsByLayer.js" />
-        <option value="$PROJECT_DIR$/src/components/About.js" />
         <option value="$PROJECT_DIR$/src/components/experiences/WorkExperiences.js" />
         <option value="$PROJECT_DIR$/src/components/experiences/EducationExperiences.js" />
         <option value="$PROJECT_DIR$/src/components/experiences/CertificationAwardExperiences.js" />
@@ -129,6 +150,7 @@
         <option value="$PROJECT_DIR$/src/components/projects/Projects.js" />
         <option value="$PROJECT_DIR$/src/components/experiences/Experiences.js" />
         <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/components/About.js" />
       </list>
     </option>
   </component>
@@ -170,6 +192,17 @@
             <path>
               <item name="client-react-yahimaduarte-site" type="b2602c69:ProjectViewProjectNode" />
               <item name="client-react-yahimaduarte-site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client-react-yahimaduarte-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-react-yahimaduarte-site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client-react-yahimaduarte-site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client-react-yahimaduarte-site" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -235,17 +268,18 @@
       <workItem from="1517916833589" duration="6785000" />
       <workItem from="1517946705700" duration="296000" />
       <workItem from="1517950016145" duration="10370000" />
-      <workItem from="1518100147123" duration="416000" />
+      <workItem from="1518100147123" duration="1861000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128875000" />
+    <option name="totallyTimeSpent" value="130320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25818452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25818452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -425,13 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/About.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="84" lean-forward="false" selection-start-line="6" selection-start-column="84" selection-end-line="6" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/experiences/WorkExperiences.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -542,6 +569,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/About.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="54" column="28" lean-forward="false" selection-start-line="54" selection-start-column="15" selection-end-line="54" selection-end-column="28" />
           <folding />
         </state>
       </provider>

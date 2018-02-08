@@ -12,8 +12,7 @@ class Experiences extends Component {
                 <h1>Experiences</h1>
                 <PhraseAuthor
                     phrase="Be brave.Take risks. Nothing can substitute experience."
-                    author="Paulo Coelho"
-                />
+                    author="Paulo Coelho"/>
                 <div className="row">
                     <WorkExperiencesWithData language="EN"/>
                 </div>

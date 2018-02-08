@@ -1,11 +1,14 @@
 import React, {Component} from 'react';
 import './ProjectPreview.css';
 import Modal from '../Modal';
+import PropTypes from 'prop-types';
 
 class ProjectPreview extends Component {
     constructor(props) {
         super(props);
-        this.state = {isModalOpen: false}
+        this.state = {
+            isModalOpen: false
+        }
     }
 
     openModal(e) {
@@ -20,7 +23,11 @@ class ProjectPreview extends Component {
     render() {
         return (
             <div>
-                <Modal id={`modal-${this.props.id}`} isOpen={this.state.isModalOpen} imgUrl={this.props.imageUrl} onClose={() => this.closeModal()}/>
+                <Modal
+                    id={`modal-${this.props.id}`}
+                    isOpen={this.state.isModalOpen}
+                    imgUrl={this.props.imageUrl}
+                    onClose={() => this.closeModal()}/>
                 <figure className="preview-figure">
                     <img src={this.props.imageUrl} alt={this.props.title} className="preview"/>
                     <figcaption className="preview-info">
@@ -38,5 +45,12 @@ class ProjectPreview extends Component {
         );
     }
 }
-
+ProjectPreview.propTypes = {
+    id: PropTypes.string,
+    title: PropTypes.string,
+    description: PropTypes.string,
+    tags: PropTypes.string,
+    imageUrl: PropTypes.string,
+    year: PropTypes.number
+};
 export default ProjectPreview;

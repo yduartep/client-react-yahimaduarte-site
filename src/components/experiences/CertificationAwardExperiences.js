@@ -22,7 +22,9 @@ const CertificationAwardExperiences = ({data: {loading, error, experiencesByType
         </div>
     );
 };
-
+CertificationAwardExperiences.propTypes = {
+    data: {}
+};
 const CertificationAwardExperiencesWithData = graphql(certAwardExperiencesQuery, {
     options: (props) => ({
         variables: {

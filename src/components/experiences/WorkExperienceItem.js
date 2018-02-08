@@ -22,5 +22,7 @@ class WorkExperienceItem extends Component {
         );
     }
 }
-
+WorkExperienceItem.propTypes = {
+    data: {}
+};
 export default WorkExperienceItem;
