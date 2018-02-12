@@ -1,6 +1,7 @@
 import React from 'react';
 import {graphql} from 'react-apollo';
 import {certAwardExperiencesQuery} from '../../graphql/queries';
+import PropTypes from 'prop-types';
 
 const CertificationAwardExperiences = ({data: {loading, error, experiencesByTypeLang}}) => {
     if (loading) {
@@ -23,7 +24,7 @@ const CertificationAwardExperiences = ({data: {loading, error, experiencesByType
     );
 };
 CertificationAwardExperiences.propTypes = {
-    data: {}
+    data: PropTypes.object
 };
 const CertificationAwardExperiencesWithData = graphql(certAwardExperiencesQuery, {
     options: (props) => ({

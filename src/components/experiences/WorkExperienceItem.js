@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import {format} from '../../util/DateUtil';
+import PropTypes from 'prop-types';
 
 class WorkExperienceItem extends Component {
     render() {
@@ -15,12 +16,10 @@ class WorkExperienceItem extends Component {
                         <h4>{this.props.data.company}</h4>
                         <p className="subtitle">{format(this.props.data.from)} - {format(this.props.data.to)}</p>
                         <p className="subtitle">{this.props.data.city}, {this.props.data.country}</p>
-                        <p className="description">
-                        <div
+                        <div className="description"
                             dangerouslySetInnerHTML={{
                             __html: this.props.data.description
-                        }}/>
-                        </p>
+                        }}/>                        
                     </div>
                 </div>
             </div>
@@ -28,6 +27,6 @@ class WorkExperienceItem extends Component {
     }
 }
 WorkExperienceItem.propTypes = {
-    data: {}
+    data: PropTypes.object
 };
 export default WorkExperienceItem;

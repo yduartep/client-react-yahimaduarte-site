@@ -83,7 +83,7 @@ class NavBar extends Component {
                     </div>)
 }
                 <footer>
-                    <p>Copyright © {new Date().getFullYear()}
+                    <p>Copyright © {new Date().getFullYear()} &nbsp;
                         Yahima Duarte | All Rights Reserved</p>
                 </footer>
             </div>
