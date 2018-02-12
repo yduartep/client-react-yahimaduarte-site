@@ -15,7 +15,12 @@ class WorkExperienceItem extends Component {
                         <h4>{this.props.data.company}</h4>
                         <p className="subtitle">{format(this.props.data.from)} - {format(this.props.data.to)}</p>
                         <p className="subtitle">{this.props.data.city}, {this.props.data.country}</p>
-                        <p className="description">{this.props.data.description}</p>
+                        <p className="description">
+                        <div
+                            dangerouslySetInnerHTML={{
+                            __html: this.props.data.description
+                        }}/>
+                        </p>
                     </div>
                 </div>
             </div>

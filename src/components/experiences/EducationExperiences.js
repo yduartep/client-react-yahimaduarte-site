@@ -2,6 +2,7 @@ import React from 'react';
 import {graphql} from 'react-apollo';
 import {educationExperiencesQuery} from '../../graphql/queries';
 import EducationExperienceItem from './EducationExperienceItem';
+import PropTypes from 'prop-types';
 
 const EducationExperiences = ({
     data: {
@@ -39,7 +40,7 @@ const EducationExperiences = ({
     );
 };
 EducationExperiences.propTypes = {
-    data: {}
+    data: PropTypes.object
 };
 const EducationExperiencesWithData = graphql(educationExperiencesQuery, {
     options: (props) => ({

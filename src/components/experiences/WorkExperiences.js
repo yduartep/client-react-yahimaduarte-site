@@ -2,6 +2,7 @@ import React from 'react';
 import {graphql} from 'react-apollo';
 import {workExperiencesQuery} from '../../graphql/queries';
 import WorkExperienceItem from './WorkExperienceItem';
+import PropTypes from 'prop-types';
 
 const WorkExperiences = ({
     data: {
@@ -39,7 +40,7 @@ const WorkExperiences = ({
     );
 };
 WorkExperiences.propTypes = {
-    data: {}
+    data: PropTypes.object
 };
 const WorkExperiencesWithData = graphql(workExperiencesQuery, {
     options: (props) => ({

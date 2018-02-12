@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {format} from '../../util/DateUtil';
+import PropTypes from 'prop-types';
 
 class EducationExperienceItem extends Component {
 
@@ -26,6 +27,6 @@ class EducationExperienceItem extends Component {
     }
 }
 EducationExperienceItem.propTypes = {
-    data: {}
+    data: PropTypes.object
 };
 export default EducationExperienceItem;

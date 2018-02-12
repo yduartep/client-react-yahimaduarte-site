@@ -1,6 +1,7 @@
 import React from 'react';
 import {graphql} from 'react-apollo';
 import {aboutMeContentQuery} from '../graphql/queries';
+import PropTypes from 'prop-types';
 
 const About = ({
     data: {
@@ -41,7 +42,7 @@ const About = ({
 };
 
 About.propTypes = {
-    data: {}
+    data: PropTypes.object
 };
 
 const AboutWithData = graphql(aboutMeContentQuery, {
